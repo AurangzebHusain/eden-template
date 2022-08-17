@@ -1,0 +1,112 @@
+.stepCardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepCard-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+  margin-bottom: 3rem;
+}
+.heading-primary {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.heading-secondary {
+  color: rgba(0, 0, 0, 0.703);
+}
+
+.custom-button {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+button {
+  width: 100%;
+  background-color: #664de5;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.optional {
+  color: rgba(128, 128, 128, 0.551);
+}
+input {
+  width: 100%;
+  padding: 1rem 2rem;
+
+  border: 1px solid lightgray;
+}
+.url-input {
+  display: flex;
+}
+.url-input input:nth-child(1) {
+  width: 40%;
+}
+
+.plan-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+.plan-card {
+  padding: 1rem 2rem;
+  border: 1px solid rgba(128, 128, 128, 0.506);
+}
+.active-card {
+  border: 2px solid #664de5;
+}
+.inactive-card {
+  /* TODO: */
+  /* If any other style needed */
+}
+.plan-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.plan-card-icon {
+  margin-bottom: 1rem;
+}
+.plan-card-body {
+  margin-bottom: 1rem;
+}
+.congrats-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #664de5;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+}
+@media only screen and (max-width: 320px) {
+  .plan-card {
+    padding: 0.5rem;
+  }
+}
